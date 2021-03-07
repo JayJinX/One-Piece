@@ -1,0 +1,84 @@
+.task-1.container {
+    display: grid;
+    height: 100vh;
+    
+    grid-template-rows: auto 1fr auto;
+}
+
+.item {
+    padding: 8px;
+    background-color: #f6f6ee;
+    text-align: center;
+}
+
+.top {
+    width: auto;
+    list-style-type: none;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 5%;
+    padding: 0;
+    display: table;
+    margin: 0 auto;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2vw;
+    color: #f68a64;
+}
+
+.top ::after {
+    content: '';
+    display: inline-block;
+    clear: both;
+}
+
+.top li {
+    float: left;
+    text-align: center;
+    margin-left: 1.25rem;
+    margin: 2vw;
+    text-decoration: none;
+}
+
+#PP {
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    position: relative;
+    top: 4vw;
+    box-shadow: -2vw -2.7vw 0 0 #f68a64;
+}
+
+#name {
+    position:relative;
+    top: 0vw;
+    left: 15vw;
+    font-size: 2vw;
+    font-family:'Cinzel', serif;
+    color:#f68a64;
+}
+
+#intro {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5vw;
+    display: block;
+    text-align: left;
+    width: 44vw;
+    position: relative;
+    left: 30%;
+    top: -2vw;
+    color:#62615D;
+}
+
+#mail {
+    color:#f68a64;
+}
+
+.top li a{
+    color:#f68a64;
+    text-decoration: none;
+
+}
+
+.top li a:hover{
+    text-decoration: underline;
+}
